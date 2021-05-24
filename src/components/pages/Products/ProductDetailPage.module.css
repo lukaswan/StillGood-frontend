@@ -1,0 +1,47 @@
+.container {
+  margin: 50px;
+}
+.box {
+  /* margin-top: 50px; */
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 50%;
+  overflow: hidden;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.detailBox {
+  margin-right: 200px;
+  /* padding: 50px; */
+  text-align: left;
+}
+
+.detailBox > h1 {
+  color: #408c8d;
+}
+
+.button {
+  font-size: medium;
+  margin-top: 50px;
+}
+
+.back {
+  width: 120px;
+  font-size: 17px;
+  background-color: #fff;
+  color: rgb(73, 73, 73);
+  outline: none;
+  border: none;
+}
+
+.back:hover{
+color:#408c8d;
+}

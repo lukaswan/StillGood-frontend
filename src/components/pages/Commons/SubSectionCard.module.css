@@ -1,0 +1,65 @@
+.sideContainer {
+  width: 230px;
+  float: left;
+  background-color: #ffffff;
+  /* height: 100vh; */
+}
+
+/* .mainCategoryDiv {
+  background-color: red;
+} */
+
+.card {
+  border: none;
+  margin: 20px;
+}
+.link {
+  font-size: medium;
+  /* font-weight: bold; */
+  color: #363636;
+}
+
+.searchlink {
+  font-size: medium;
+  /* font-weight: bold; */
+  color: #408c8d;
+  margin-left: 2.3rem;
+  text-decoration: bold;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.link:focus {
+  color: #3d3d3d;
+  border-bottom: 2px solid #408c8d;
+}
+
+/* Brand */
+.searchContainer {
+  margin: 20px 0;
+}
+.search {
+  /* margin: 20px 0;
+  color: #408c8d; */
+  /* width: 100%; */
+  /* width: 100px; */
+  border: 3px solid #00B4CC;
+  /* border-right: none; */
+  padding: 5px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  color: #000000;
+  text-align: center;
+}
+.all {
+  margin-top: 50px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: inherit;
+  max-width: 100%;
+}

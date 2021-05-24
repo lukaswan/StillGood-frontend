@@ -1,0 +1,36 @@
+.nav-links2 {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    font-size: 13pt;
+  }
+
+  .nav-links2:hover {
+/* text-decoration: bold; */
+font-weight: bold;
+color:white;
+}
+
+  .nav {
+    /* background-color: #efefef; */
+    background-color: #408c8d;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: static;
+    top: 0;
+    z-index: 20;
+  }
+
+  .nav-item:after {
+    content: "";
+    display: block;
+    /* height: 3px; */
+    width: 0;
+    background: transparent;
+    /* transition: width 0.7s ease, background-color 0.5s ease; */
+  }
